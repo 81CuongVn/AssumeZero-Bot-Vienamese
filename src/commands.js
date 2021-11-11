@@ -44,7 +44,7 @@ exports.categories = {
                 "short_description": "Nhắn tin cho tất cả các nhóm của bot",
                 "description": "Thông báo một tin nhắn cho tất cả các cuộc trò chuyện nhóm mà bot có mặt",
                 "syntax": "psa {message}",
-                "example": "psa Hello, this is BerBot",
+                "example": "psa Hello, this is AssumeZero-Bot",
                 "sudo": true,
                 "attachments": false,
                 "user_input": {
