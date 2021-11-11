@@ -1,22 +1,22 @@
 // The trigger word that precedes most commands and will activate the bot
-exports.trigger = "jg";
+exports.trigger = "/";
 
 // Bot owner information
 exports.owner = {
     "names": {
-        "short": "Đặng Phong",
-        "long": "Đặng Phong"
+        "short": "yourshortname",
+        "long": "yourlongname"
     },
-    "id": "100034811502390" // ID of bot owner (for secure commands, reports, and alerts)
+    "id": "yourid" // ID of bot owner (for secure commands, reports, and alerts)
 };
 
 // Bot information
 exports.bot = {
     "names": {
-        "short": "BerBot", // Will be used as 'nickname' in chat (remove if same as account name)
-        "long": "BerBot" // Name displayed in profile on bot's Facebook account
+        "short": "botshortname", // Will be used as 'nickname' in chat (remove if same as account name)
+        "long": "botlongname" // Name displayed in profile on bot's Facebook account
     },
-    "id": "100040841925876" // Bot's ID (for security purposes in commands)
+    "id": "botid" // Bot's ID (for security purposes in commands)
 };
 
 // Location of the bot repo if automatic GitHub webhook deploys are used
@@ -30,7 +30,7 @@ exports.repoPath = "C:/Users/Administrator/Documents/GitHub/AssumeZero-Bot-VietN
 exports.contextless = false;
 
 // Default group name when no other information is available
-exports.defaultTitle = "Group Chat Have JGBot by Đặng Phong";
+exports.defaultTitle = "Group Chat Have AssumeZeroBot by ";
 
 // Heroku settings (might need to tweak some things if using another host)
 // App name
